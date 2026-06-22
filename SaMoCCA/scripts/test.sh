@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES=0 python ./test.py --datapath "../datasets" \
+                 --benchmark pascal \
+                 --fold 0 \
+                 --bsz 1 \
+                 --nworker 16 \
+                 --backbone swin \
+                 --feature_extractor_path "../backbones/swin.pth" \
+                 --logpath "./logs" \
+                 --load "./logs/train/Swin_1s_Pascal/fold_0/best_model.pt" \
+                 --nshot 1 \
+                 --vispath "./vis_1/fold_0/" \
+                 --visualize
