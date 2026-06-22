@@ -8,7 +8,7 @@ and support features, and a Squeeze-and-Excitation block recalibrates the coarse
 features before the mask-feature mixer produces the final per-pixel prediction.
 
 <p align="middle">
-    <img src="assets/arch_samocca.png">
+    <img src="arch_samocca.png">
 </p>
 
 ## Architecture overview
